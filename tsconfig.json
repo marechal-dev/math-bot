@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "strictFunctionTypes": true,
+    "baseUrl": "./",
+    "paths": {
+      "@Configs/*": [
+        "./src/configs/*"
+      ],
+      "@Client/*": [
+        "./src/client/*"
+      ]
+    }
+  }
+}
